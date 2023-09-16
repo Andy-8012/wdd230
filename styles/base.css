@@ -1,0 +1,90 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header,footer{
+    max-width: 640px;
+    margin: auto;
+    border: 1px solid #bbb;
+    padding: 1rem;
+    background-color: rgb(53, 53, 116);
+    color: white;
+}
+
+nav{
+    max-width: 640px;
+    margin: auto;
+    background-color: #e6f2ff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin: 40px;
+}
+
+#menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 2em;
+}
+
+.menuOption:hover {
+    background-color: rgb(53, 53, 116);
+    color: white;
+}
+
+main {
+    max-width: 640px;
+    margin:auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.card {
+    display: grid;
+    border: 1px solid #bbb;
+    border-radius: 10px;
+}
+
+.cardList {
+    list-style-type: none;
+}
+
+h3 {
+    background-color: rgb(53, 53, 116);
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 2em;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    text-align: center;
+}
+
+footer{
+    font-size: 2em;
+    text-align: center;
+}
+
