@@ -20,7 +20,7 @@
 
     #menu{
         display: grid;
-        grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -49,7 +49,7 @@
         margin-left: 5%;
         margin-right: 5%;
         display: grid;
-        grid-template-columns: 2fr, 1fr;
+        grid-template-columns: 2fr 1fr;
     }
 
     h2 {
