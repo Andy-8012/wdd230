@@ -31,12 +31,42 @@ h1 {
     margin: 40px;
 }
 
+#menuButton {
+    font-size: 1.5rem;
+	border: 1px solid rgba(0,0,0,.3);
+	padding: 3px 7px 6px;
+	background-color: #eee;
+	color: #000;
+ 	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+#menuButton::before{
+    content: "☰";
+}
+
+#menuButton.open::before {
+	content: "X";
+}
+
 #menu{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background-color: #e6f2ff;
+    color: rgb(53, 53, 116);
+}
+
+.menuOption {
+    display: none;
+}
+
+.open li {
+    display: block;
+    width: 100%;
     text-align: center;
-    font-size: 2em;
+    padding: 1rem;
 }
 
 .menuOption:hover {
