@@ -41,6 +41,16 @@ p {
     margin: 0;
 }
 
+#menu a {
+    color: #143642;
+    text-decoration: none;
+}
+
+#menu a:hover{
+    color: white;
+    text-decoration: none;
+}
+
 .menuOption {
     display: none;
 }
