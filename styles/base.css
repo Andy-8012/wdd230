@@ -58,6 +58,15 @@ h1 {
     color: rgb(53, 53, 116);
 }
 
+#menu a {
+    color: rgb(53, 53, 116);
+    text-decoration: none;
+}
+
+#menu a:hover{
+    color: white;
+    text-decoration: none;
+}
 .menuOption {
     display: none;
 }
