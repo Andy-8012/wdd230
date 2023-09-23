@@ -1,0 +1,85 @@
+header, footer {
+    background-color: #143642;
+    color: white;
+    padding-bottom: 1rem;
+    margin: auto;
+}
+
+#title {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+#menuButton {
+    font-size: 1.5rem;
+	border: 1px solid #dce5e5;
+	padding: 3px 7px 6px;
+	background-color: #143642;
+	color: white;
+ 	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+#menuButton::before{
+    content: "☰";
+}
+
+#menuButton.open::before {
+	content: "X";
+}
+
+#menu{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background-color: #dce5e5;
+    color: #143642;
+    margin: 0;
+}
+
+.menuOption {
+    display: none;
+}
+
+.open li {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+
+.menuOption:hover {
+    background-color: #143642;
+    color: white;
+}
+
+#heroContainer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+
+#heroImage {
+    grid-column: 1/4;
+    grid-row: 1/4;
+    width: 100%;
+    max-height: 200px;
+}
+
+#joinButton {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: #143642;
+    color: white;
+    border-radius: 10px;
+    font-size: 2rem;
+}
+
+section{
+    background-color: #dce5e5;
+    border: #143642;
+}
