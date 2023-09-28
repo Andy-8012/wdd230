@@ -37,7 +37,11 @@
         </ul>
     </nav>
     <main>
-        <h2>WDD 230: Web Frontend Development</h2>
+        <section id="heroContainer">
+            <h2>WDD 230: Web Frontend Development</h2>
+            <img id="heroImageSmall" src="images/saltLakeCityTemple.webp" alt="Salt Lake City Temple">
+            <img id="heroImageLarge" src="images/SaltLakeCityTempleLarge.webp" alt="Salt Lake City Temple">
+        </section>
         <section id="card1" class="card">
             <h3>Learning Activites</h3>
             <ul class="cardList">
@@ -52,8 +56,9 @@
         <section id="card2" class="card">
             <h3>Information</h3>
             <h4>Weather Placeholder</h4>
-            <h4>Number of Visits Placeholder</h4>
+            <h4>Number of Visits Placeholder <span class="visits"></span></h4>
         </section>
+        <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3029.0563554412556!2d-112.06609412343958!3d40.6065802440618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x875291e93bfec5eb%3A0xb59e5ea4cf0a6570!2s7957%20S%207260%20W%2C%20West%20Jordan%2C%20UT%2084081!5e0!3m2!1sen!2sus!4v1695921772155!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </main>
     <footer>
         <p id="copyright"></p>
@@ -61,5 +66,6 @@
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/menuButton.js"></script>
+    <script src="scripts/getVisits.js"></script>
 </body>
 </html>

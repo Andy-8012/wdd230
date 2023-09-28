@@ -131,3 +131,15 @@ footer{
 #mode {
     font-size: 2rem;
 }
+
+#heroImageSmall {
+    width: 100%;
+}
+
+#heroImageLarge {
+    display: none;
+}
+
+.maps {
+    width: 100%;
+}
