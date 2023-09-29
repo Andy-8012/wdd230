@@ -21,7 +21,7 @@
 </head>
 <body>
     <header>
-        <img id="profilePicture" src="images/profile_picture.jpg" alt="Profile Image">
+        <img id="profilePicture" src="images/profile_picture.webp" alt="Profile Image">
         <h1>Andrew Riley</h1>
         <div id="mode">
             ☑️
@@ -39,8 +39,10 @@
     <main>
         <section id="heroContainer">
             <h2>WDD 230: Web Frontend Development</h2>
-            <img id="heroImageSmall" src="images/saltLakeCityTemple.webp" alt="Salt Lake City Temple">
-            <img id="heroImageLarge" src="images/SaltLakeCityTempleLarge.webp" alt="Salt Lake City Temple">
+            <picture>
+                <source srcset="images/saltLakeCityTemple.webp" media="max-width: 400px">
+                <img id="heroImageLarge" src="images/SaltLakeCityTempleLarge.webp" alt="Salt Lake City Temple">
+            </picture>
         </section>
         <section id="card1" class="card">
             <h3>Learning Activites</h3>

@@ -132,14 +132,16 @@ footer{
     font-size: 2rem;
 }
 
-#heroImageSmall {
+.maps {
     width: 100%;
 }
 
 #heroImageLarge {
-    display: none;
+    width: 100%;
+    height: auto;
 }
 
-.maps {
+picture {
     width: 100%;
+    height: auto;
 }

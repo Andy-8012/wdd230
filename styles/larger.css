@@ -68,15 +68,6 @@
         display: flex;
     }
 
-    #heroImageSmall {
-        display: none;
-    }
-
-    #heroImageLarge {
-        display: block;
-        width: 100%;
-    }
-
     h2 {
         text-align: left;
         position: absolute;
