@@ -68,11 +68,6 @@
         display: flex;
     }
 
-    h2 {
-        text-align: left;
-        position: absolute;
-        padding-left: 5px;
-    }
 
     #card1 {
         grid-column: 1/2;

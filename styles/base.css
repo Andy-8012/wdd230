@@ -90,7 +90,9 @@ main {
 }
 
 h2 {
-    text-align: center;
+    text-align: left;
+    position: absolute;
+    padding-left: 5px;
 }
 
 .card {
