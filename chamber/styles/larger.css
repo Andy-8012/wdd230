@@ -1,7 +1,7 @@
 @media screen and (min-width: 500px){
 
     body {
-        max-width: 1800px;
+        max-width: 960px;
         margin: auto;
     }
 
@@ -10,7 +10,7 @@
     }
 
     nav{
-        max-width: 1768px;
+        max-width: 928px;
         margin: auto;
         background-color: #dce5e5;
         padding-left: 1rem;
@@ -101,5 +101,27 @@
 
     .imageCard img:hover {
         box-shadow: 0 0 50px #333;
+    }
+
+    form {
+        margin-top: -2rem;
+        grid-row: 1/2;
+    }
+
+    form label.top input, form label.top select, form label.required input, form label.required select, textarea, textarea select{
+        width: 90%;
+    }
+
+    form input.submitButton {
+        width: 86%;
+    }
+
+    .benefits {
+        grid-column: 2/3;
+    }
+
+    .benefits div {
+        margin-top: 0;
+        margin-bottom: 1rem;
     }
 }
