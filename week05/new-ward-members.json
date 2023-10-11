@@ -1,0 +1,28 @@
+{
+    "familyName" : "Riley",
+    "date" : "2007",
+    "totalMembers" : "4",
+    "visited" : "true",
+    "members": [
+        {
+        "name" : "David Riley",
+        "gender" : "M",
+        "birthdate" : "03/23/1970"
+        },
+        {
+        "name" : "David Riley",
+        "gender" : "M",
+        "birthdate" : "03/23/1970"
+        },
+        {
+        "name" : "David Riley",
+        "gender" : "M",
+        "birthdate" : "03/23/1970"
+        },
+        {
+        "name" : "David Riley",
+        "gender" : "M",
+        "birthdate" : "03/23/1970"
+        }
+    ]
+}

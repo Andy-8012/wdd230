@@ -1,0 +1,16 @@
+div{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+}
+
+section {
+    margin: 5px;
+    background-color: aquamarine;
+    text-align: center;
+    border-radius: 5px;
+    border: solid 1px black;
+}
+
+h1 {
+    text-align: center;
+}
