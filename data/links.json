@@ -1,7 +1,7 @@
 {"weeks" : [
 
     {
-        "week" : "week 1",
+        "week" : "Week 01",
         "links" : [
             {
                 "url" : "week01/holygrail.html",
@@ -23,7 +23,7 @@
     },
 
     {
-        "week" : "week 2",
+        "week" : "Week 02",
         "links" : [
             {
                 "url" :"week02/design.html",
@@ -41,7 +41,7 @@
     },
 
     {
-        "week" :"week 3",
+        "week" :"Week 03",
         "links" : [
             {
                 "url" :"week03/images/landscape.webp",
@@ -63,7 +63,7 @@
     },
 
     {
-        "week" :"week 4",
+        "week" :"Week 04",
         "links" : [
             {
                 "url" :"https://codepen.io/Andy-8012/pen/mdazJEa",
@@ -85,7 +85,7 @@
     },
 
     {
-        "week" :"week 5",
+        "week" :"Week 05",
         "links" : [
             {
                 "url" :"https://codepen.io/Andy-8012/pen/xxmBKpZ",
