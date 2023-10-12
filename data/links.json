@@ -1,0 +1,110 @@
+{"weeks" : [
+
+    {
+        "week" : "week 1",
+        "links" : [
+            {
+                "url" : "week01/holygrail.html",
+                "title" : "Holy Grail"
+            },
+            {
+                "url" : "week01/media-query.html",
+                "title" : "Media Query"
+            },
+            {
+                "url" : "https://codepen.io/Andy-8012/pen/OJrjowa",
+                "title" : "JS Pen"
+            },
+            {
+                "url" : "week01/chamber-site-plan.html",
+                "title" : "Chamber Site Plan"
+            }
+        ]
+    },
+
+    {
+        "week" : "week 2",
+        "links" : [
+            {
+                "url" :"week02/design.html",
+                "title" :"Design Principles"
+            },
+            {
+                "url" :"https://codepen.io/Andy-8012/pen/QWzaRvY",
+                "title" :"Hamburger Menu"
+            },
+            {
+                "url" :"week02/bom.html",
+                "title" :"DOM Manipulation"
+            }
+        ]
+    },
+
+    {
+        "week" :"week 3",
+        "links" : [
+            {
+                "url" :"week03/images/landscape.webp",
+                "title" :"Webp"
+            },
+            {
+                "url" :"week03/lazyload.html",
+                "title" :"Lazy Loading Images"
+            },
+            {
+                "url" :"week03/reponsive-images.html",
+                "title" :"Responsive Images"
+            },
+            {
+                "url" :"week03/bom.html",
+                "title" :"Local Storage"
+            }
+        ]
+    },
+
+    {
+        "week" :"week 4",
+        "links" : [
+            {
+                "url" :"https://codepen.io/Andy-8012/pen/mdazJEa",
+                "title" :"Pseudo Classes"
+            },
+            {
+                "url" :"week04/images/cssCombinators.png",
+                "title" :"CSS Combinators"
+            },
+            {
+                "url" :"week04/tablebuild.html",
+                "title" :"Table Build"
+            },
+            {
+                "url" :"week04/form-start/index.html",
+                "title" :"Form Build"
+            }
+        ]
+    },
+
+    {
+        "week" :"week 5",
+        "links" : [
+            {
+                "url" :"https://codepen.io/Andy-8012/pen/xxmBKpZ",
+                "title" :"Pseudo Elements"
+            },
+            {
+                "url" :"week05/new-ward-members.json",
+                "title" :"JSON File"
+            },
+            {
+                "url" :"week05/prophets.html",
+                "title" :"Latter-Day Prophets"
+            },
+            {
+                "url" :"week05/weather.html",
+                "title" :"Weather Activity"
+            }
+        ]
+    }
+
+]
+}
