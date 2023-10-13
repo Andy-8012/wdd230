@@ -1,6 +1,5 @@
 const baseURL = "https://Andy-8012.github.io/wdd230/";
-//const linksURL = "https://Andy-8012.github.io/wdd230/data/links.json";
-const linksURL = "data/links.json"
+const linksURL = "https://Andy-8012.github.io/wdd230/data/links.json";
 const cardList = document.querySelector('.cardList');
 
 async function getLinks() {

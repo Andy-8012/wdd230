@@ -1,0 +1,66 @@
+{
+    "members" : [
+        {
+            "name" : "Crystal Inn Hotel & Suites Salt Lake City",
+            "address" : "230 W 500 S, Salt Lake City, UT 84101",
+            "phone" : "+18013284466",
+            "url" : "http://www.crystalinnsaltlake.com/",
+            "image" : "https://www.crystalinnsaltlake.com/wp-content/uploads/2018/07/logo.png",
+            "membership" : "Bronze"
+        },
+
+        {
+            "name" : "Delta Center",
+            "address" : "301 S Temple, Salt Lake City, UT 84101",
+            "phone" : "+18013252000",
+            "url" : "http://www.deltacenter.com/",
+            "image" : "https://www.deltacenter.com/wp-content/uploads/2023/02/logo.svg",
+            "membership" : "Gold"
+        },
+
+        {
+            "name" : "Church of Jesus Christ of Latter Day Saints",
+            "address" : "50 E North Temple St, Salt Lake City, UT 84150",
+            "phone" : "+18012401000",
+            "url" : "https://www.churchofjesuschrist.org/",
+            "image" : "https://assets.churchofjesuschrist.org/7b55cb4ed77bf166bb87a86696c4f7e5375908ac.png",
+            "membership" : "Non Profit"
+        },
+
+        {
+            "name" : "Salt Lake Legal Defender",
+            "address" : "275 E 200 S, Salt Lake City, UT 84111",
+            "phone" : "+18015325444",
+            "url" : "http://www.sllda.com/",
+            "image" : "https://www.sllda.com/wp-content/uploads/2021/10/image-25-987x1024.png",
+            "membership" : "Silver"
+        },
+
+        {
+            "name" : "Avenues Pet Clinic",
+            "address" : "350 E 100 S, Salt Lake City, UT 84111",
+            "phone" : "+18013643475",
+            "url" : "http://avenuespetclinicslc.com/",
+            "image" : "https://www.avenuespetclinicslc.com/wp-content/uploads/2019/09/Avenues-Pet-Clinic-Salt-Lake-City-UT-1.png",
+            "membership" : "Bronze"
+        },
+
+        {
+            "name" : "Eccles Theater",
+            "address" : "131 S Main St, Salt Lake City, UT 84111",
+            "phone" : "+13854681010",
+            "url" : "https://www.saltlakecountyarts.org/venues/eccles-theater/",
+            "image" : "https://www.saltlakecountyarts.org//wp-content/uploads/2018/12/SLCo-Arts-Culture.png",
+            "membership" : "Gold"
+        },
+
+        {
+            "name" : "Deseret Industries Thrift Store & Donation Center",
+            "address" : "743 West 700 S, Salt Lake City, UT 84104",
+            "phone" : "+18012407202",
+            "url" : "http://deseretindustries.org/",
+            "image" : "https://i0.wp.com/fontlot.com/wp-content/uploads/2020/12/download-e1550267375460.jpg?w=718&ssl=1",
+            "membership" : "Non Profit"
+        }
+    ]
+}
