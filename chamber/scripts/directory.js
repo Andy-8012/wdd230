@@ -1,7 +1,7 @@
 const baseURL = "https://Andy-8012.github.io/wdd230/";
 //const linksURL = "https://Andy-8012.github.io/wdd230/chamber/data/members.json";
 const linksURL = "data/members.json"
-const directoryList = document.querySelector('#directoryCards');
+const directoryList = document.querySelector('.directoryCards');
 
 async function getLinks() {
     const response = await fetch(linksURL);
@@ -51,4 +51,23 @@ function displayLinks(members){
         directoryList.appendChild(card)
 
     });
+
+
+    const gridbutton = document.querySelector("#grid");
+    const listbutton = document.querySelector("#list");
+    
+    // The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
+    
+    gridbutton.addEventListener("click", () => {
+        // example using arrow function
+        directoryList.classList.add("toggleGrid");
+        directoryList.classList.remove("toggleList");
+    });
+    
+    listbutton.addEventListener("click", showList); // example using defined function
+    
+    function showList() {
+        directoryList.classList.add("toggleList");
+        directoryList.classList.remove("toggleGrid");
+    }
 }

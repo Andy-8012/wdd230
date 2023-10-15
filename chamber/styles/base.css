@@ -224,7 +224,7 @@ form label.top input:required:valid {
     display: block;
 }
 
-#directoryCards{
+.directoryCards{
     display: block;
     text-align: center;
     border-radius: 5px;
@@ -232,13 +232,26 @@ form label.top input:required:valid {
     padding-bottom: 5px;
 }
 
-#directoryCards img {
+.directoryCards img {
     max-width: 200px;
     height: auto;
 }
 
-#directoryCards div {
+.directoryCards div {
     border: solid 1px #143642;
     margin: 10px;
     border-radius: 5px;
+}
+
+.menu {
+	margin: 1rem auto;
+	border: 1px solid #143642;
+	padding: 0.5rem;
+	background-color: #dce5e5;
+	text-align: center;
+}
+
+.menu button {
+	padding: 1rem;
+	font-weight: 700;
 }

@@ -125,8 +125,27 @@
         margin-bottom: 1rem;
     }
 
-    #directoryCards{
+    .toggleGrid{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    }
+
+    .toggleList{
+        display: block;
+    }
+
+    .toggleList img {
+        display: none;
+    }
+    
+    .toggleList #informationDiv {
+        border: none;
+        display: flex;
+    }
+    
+    .toggleList h2, .toggleList p, .toggleList a{
+        font-size: 1rem;
+        font-style: none;
+        padding: 5px;
     }
 }
