@@ -145,7 +145,6 @@
     
     .toggleList h2, .toggleList p, .toggleList a{
         font-size: 1rem;
-        font-style: none;
         padding: 5px;
     }
 }
